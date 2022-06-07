@@ -7,7 +7,6 @@ const openNav=()=> {
       x.className += " responsive";
   }
 }
-
 const  closeNav=()=> {
   var x = document.getElementById("myNavbar");
   if (x.className === "navbar responsive") {
